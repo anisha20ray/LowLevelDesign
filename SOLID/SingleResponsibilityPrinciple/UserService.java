@@ -22,3 +22,6 @@ public class UserService {
         logger.logInfo("User registered successfully.");
     }
 }
+
+//Contains the business logic related to users, such as user registration.
+//It coordinates UserRepository, EmailService, and LoggerService without performing their individual responsibilities.

@@ -16,3 +16,6 @@ public class LoggerService {
         System.out.println("[ERROR] " + message);
     }
 }
+
+//Records application events, errors, and important actions for debugging and monitoring.
+//It centralizes logging so other classes don't need to manage log output themselves.

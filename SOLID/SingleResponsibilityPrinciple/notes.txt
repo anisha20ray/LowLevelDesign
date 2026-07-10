@@ -1,0 +1,30 @@
+How SRP is Applied
+
+Each class has exactly one reason to change:
+
+User → Changes only if user attributes change.
+UserRepository → Changes only if database logic changes.
+EmailService → Changes only if email functionality changes.
+LoggerService → Changes only if logging requirements change.
+UserService → Changes only if business rules change.
+Main → Changes only if application startup/configuration changes.
+
+This is the essence of the Single Responsibility Principle (SRP) in Low-Level Design.
+
+Single Responsibility Principle (SRP) - Definition
+
+The Single Responsibility Principle (SRP) states that a class should have only one responsibility or one reason to change. Each class should focus on a single task, making it easier to understand, maintain, and extend.
+
+Why do we need SRP?
+Improves code readability by keeping each class focused on one purpose.
+Makes the code easier to maintain and modify because changes affect only one class.
+Increases reusability, as classes with one responsibility can be used in different projects.
+Simplifies testing and debugging since each class performs only one task.
+Reduces the impact of changes, lowering the risk of introducing bugs in unrelated functionality.
+Drawbacks of a Class Having Multiple Responsibilities
+Difficult to maintain: A single class becomes large and hard to understand.
+High coupling: Different functionalities become tightly connected, making changes risky.
+Hard to test: Unit testing one responsibility may require dealing with unrelated code.
+Low reusability: A class performing many tasks cannot be easily reused elsewhere.
+More bugs: Changing one feature can unintentionally break another because everything is in the same class.
+Violates clean code principles: The class has multiple reasons to change, making future modifications more complex.

@@ -43,3 +43,5 @@ public class User {
 }
 
 //Responsibility: Store and manage only user data. It does not handle database operations, authentication, email sending, etc.
+//Stores user-related data such as id, name, and email.
+//It is responsible only for representing a user object and nothing else.

@@ -14,3 +14,5 @@ public class Main {
         userService.registerUser(user);
     }
 }
+//Acts as the entry point of the application.
+//It creates the required objects and starts the execution of the program

@@ -10,3 +10,5 @@ public class UserRepository {
 }
 
 //CRUD Operations
+//Handles all database operations related to users, such as saving or retrieving user information.
+//It separates data access logic from business logic
